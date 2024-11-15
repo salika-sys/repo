@@ -1,0 +1,83 @@
+git
+
+sudo apt update
+
+sudo apt install git
+
+git config --global user.name "salika-sys"
+
+git config --global user.email "salikaqp1@gmail.com"
+
+git config --list
+user.name=salika-sys
+user.email=salikaqp1@gmail.com
+
+mkdir workspace
+
+cd workspace
+
+
+git clone repositoryurl(https://github.com/username/repositoryname.git)
+
+Authentication failed bc github no longer supports password authentication for HTTPS
+Instead PAT and SSH Key are used.
+
+git clone git@github.com:salika-sys/repo.git
+
+salika@Lenovo-ideapad3:~/workspace$ cd repo
+salika@Lenovo-ideapad3:~/workspace/repo$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+
+
+Its all done so now i can play on my working tree
+
+Inside repo, create new file with touch command.
+>touch hello.py
+>gedit hello.py
+Type whatever you want and save it
+
+git add hello.py
+git commit -m “the change you made”
+git push origin main
+
+
+
+
+
+
+git clone https://tokenhere@github.com/user_name/repo_name.git
+
+Token: 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
+
+Ssh key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC2BpsthqGbIFlf4+N15hOcbT8MZIqq4LT5iPdFIQCuEixVXdwMkviKon81oi+npHNw8EP6uaxY4QOyahBUG6HTAArQB9S1Rt+uzPLW69j8mzN3PsIQTlD5sAtSwLF07DhwA+mzpN1W2lXpq47ZyuvImKt1QaKt4+mOzZ1on/3bg/KjcnWTEzz9/lJ321FrzhEZUgsOOucjJV521jIj+ljrmi5zBJrzLEBFI/9u3ROmoqVIr+JtVk1hm+Dv5djah2wRXfiVD44SGhdOPCMpwIuyRaIZnnFSOX33h2UyA1JG9j+tenbOpbEXRdCLvMAt3lYRQ5YRI5ykKQP7ciwgtGbjYSvlS/TbltqH5gI/tJV/9DowdSk6NEJm8YRofQUrYsFbzBbqm2dGO0qICbc4TC3B0CckawR3MS50ucJCWhvnEJTGni+dd7iKfTYoSgXKfCGXW9sjCG6pX6kBf3PlMDjLsCpjLcMz2X11YT4Xjx4F3gKstOKQanv3BAsGcm+X3LDIJ9w9NQV+KpNn9Cfced32yXJwZT8MsENT0/YXOXs/pWyKL51HAVw41/lAmiuzk//l8GiSxunoGX0jRTdt0HTfAJl8dvO92gLec30OKcjXNMYPX1AyFbk3c2sW46cHOrfUUKoYN/A3EUpF/BG3Bm0EYsyRLCXJtCmmQdUrjwtoFw== salikaqp1@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pwd: print working depository
+
